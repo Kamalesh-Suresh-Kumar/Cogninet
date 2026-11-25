@@ -1,0 +1,73 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node / Frontend Dependencies & Build
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+*.local
+
+# Python / Backend
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment & Temp
+.env
+.env.*
+!.env.example
+*.zip
+.tempmediaStorage/
+
+# Ignore cloned reepo files
+yang/
+
+.venv/
+
+Exp 1/
+Exp 2/
+Exp 3/
+Exp 4/
+Exp 5/
+Exp 6/
+Exp 7/
+Exp 8/
+Exp 9/
+Exp 10/
+
+# Java / Maven
+target/
+**/target/
+.mvn/wrapper/maven-wrapper.jar
+# NETCONF external repositories and build artifacts
+Cogninet/telemetry/netconf/build/
